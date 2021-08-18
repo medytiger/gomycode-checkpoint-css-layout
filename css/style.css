@@ -60,7 +60,6 @@ li a :hover {
 
 .welcome {
     display: flex;
-    flex-direction: column-reverse;
 }
 
 .image {
