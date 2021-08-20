@@ -29,6 +29,7 @@
 .logo a {
     text-decoration: none;
     font-size: 1.7rem;
+    color: rgb(94, 94, 247);
 }
 
 .nav_link {
@@ -59,12 +60,18 @@ li a :hover {
 
 
 .welcome {
-    display: flex;
+    display: flex; 
+}
+
+.action {
+    width: 60%;
+    align-items: center;
+    padding-left: 100px;
+    margin-top: 100px;
 }
 
 .image {
-    
-    
+    width: 40%;
 }
     
 
@@ -73,20 +80,19 @@ li a :hover {
     height: 27rem;
     border-radius: 50%;
     float: right;
-    margin-right : 100pX;
+    margin-right : 150pX;
     margin-top: 0%;
 }
 
 
 .gomycode-logo {
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
+    padding-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .experience {
-    width: 100%;
+    width: 85%;
     max-width: 120rem;
     margin: 30px 0;
     padding: 0 2.5rem;
@@ -95,36 +101,122 @@ li a :hover {
     text-align: center;
 }
 
-.deux {
-    display: flex;
+.container-left {
+    width: 30%;
     align-items: center;
 }
 
 .plus-deux {
     font-size: 15rem;
+    color: rgb(94, 94, 247);
+}
+
+.container-rigth {
+    width: 70%;
+}
+
+.boite-title {
+    font-size: 30px;
 }
 
 .boite {
     display: flex;
-    align-items: center;
-    margin: 30px;
-    padding: 20px;
     justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.skils {
+    width: 30%;
+    border: 1px solid;
+    height: 280px;
+    border-radius: 5px;
+
 }
 
 
-.site {
-    justify-content: space-between;
-}
-
-.application {
-    justify-content: space-between;
-}
-
-
-.temoin {
+.more {
     display: flex;
 }
+
+.more-box{
+    width: 50%;
+}
+
+.Mes-travaux {
+    margin: 30px 100px;
+}
+
+.image-travaux {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    padding: 20px;
+    width: 31%;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+
+
+.diplome {
+    display: flex;
+}
+
+.diplome-img {
+
+    width: 50%;
+}
+
+.diplome-img img{
+    width: 90%;
+    margin-left: 3rem;
+}
+
+
+.diplome-test {
+    width: 50%;
+}
+
+.winner {
+    padding-right: 3rem;
+}
+
+.google-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+
+}
+
+.google-play img {
+    padding-top: 1rem;
+    width: 30%;
+}
+
+
+
+
+.container-temoin {
+    display: flex; 
+    padding: 3rem;
+    border: 1px solid red; 
+    justify-content: space-between;
+}
+
+.temoin {
+    width: 28%;
+    height: 280px;
+    border-radius: 5px;
+    margin-left: 2rem;
+    border: solid 1px red;
+    box-shadow: 15px 15px 15px 15px rgb(27, 26, 26);
+}
+
+
 
 
 .footer {
